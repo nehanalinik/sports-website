@@ -8,24 +8,19 @@ function App() {
       <div className="overflow-auto h-[94vh] bg-white/20 z-10 m-5 rounded-md scroll-smooth">
         <div className="flex flex-col p-4 items-center justify-center">
           <div className="m-4">
-            <div className="text-5xl text-slate-900">Sports Season</div>
-            <div className="text-2xl text-slate-300 text-center">2024-25</div>
+            <div className="text-md xsm:text-lg sm:text-xl smd:text-2xl md:text-3xl lg:text-4xl text-slate-900 text-center tracking-wide">Sports Season</div>
+            <div className="text-sm xsm:text-md sm:text-lg smd:text-xl md:text-2xl font-bold text-white/90 text-center tracking-wide">2024-25</div>
           </div>
-          <div className="mt-4 flex flex-col gap-48 items-center justify-center">
-            <video
-              className="rounded-lg object-cover w-100 h-[85vh]"
-              src={HeaderVid}
-              autoPlay
-              loop
-              muted
-              controls
-            ></video>
-            <video
-              className="rounded-lg object-cover w-100 h-[85vh]"
+          <div className="mt-4 flex flex-col gap-48 items-center justify-center p-2">
+              <video
+                className="rounded-lg object-fill"
+                src={HeaderVid}
+                controls
+              ></video>
+             <video
+              className="rounded-lg object-fill"
               src={Volleyball}
-              autoPlay
-              loop
-              muted
+              controls
             ></video>
             <div>video3</div>
             <div>video4</div>

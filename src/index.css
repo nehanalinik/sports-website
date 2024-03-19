@@ -2,20 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body { */
-  /* font-family: "Notable", sans-serif; */
-  /* background-image: url('./assets/bg.jpg');
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-attachment: fixed; */
-/* } */
-/* font-family: "Ruslan Display", sans-serif; */
-/* filter: blur(2px); */
-/* -webkit-filter: blur(8px); */
-/* background-color: #2b1717; */
-/* background: repeating-radial-gradient(circle,#f1f5ff, transparent 20%); */
-/* background-size: 3em 3em; */
-/* @apply bg-secondaryWhite text-secondaryBlack overflow-x-hidden */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
 
 body{
   font-family: "Notable", sans-serif;
@@ -28,11 +19,11 @@ body{
   left: 0;
   width: 100%;
   min-height: 100vh;
-  background-image: url('./assets/bg2.jpg');
+  background-image: url('./assets/cricketbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   z-index: -1;
-  /* filter: blur(2px); */
 }
 
 ::-webkit-scrollbar{
