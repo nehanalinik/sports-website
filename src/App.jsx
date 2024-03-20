@@ -10,7 +10,7 @@ function App() {
           <div className="m-4 flex items-center gap-2">
             <img src={Logo} alt="logo" width={100} />
             <div>
-              <div className="text-md xsm:text-lg sm:text-xl smd:text-2xl md:text-3xl lg:text-4xl text-slate-900 tracking-wide">
+              <div className="text-md xsm:text-lg sm:text-xl smd:text-2xl md:text-3xl lg:text-4xl text-slate-900">
                 BPBO Events
               </div>
               <div className="text-sm xsm:text-md sm:text-lg smd:text-xl md:text-2xl font-bold text-white/90 tracking-wide">
@@ -18,7 +18,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="mt-4 flex flex-col gap-48 items-center justify-center p-2">
+          <div className="mt-4 flex flex-col gap-12 md:gap-20 lg:gap-48 items-center justify-center p-2">
             <video
               className="rounded-lg object-fill"
               src={HeaderVid}
