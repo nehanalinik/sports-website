@@ -24,11 +24,6 @@ function App() {
               controls
             ></video>
             <div className="text-white text-2xl p-4">Coming Soon...</div>
-            {/* <video
-              className="rounded-lg object-fill"
-              src={Volleyball}
-              controls
-            ></video> */}
           </div>
         </div>
       </div>
