@@ -1,4 +1,4 @@
-import FirstVid from "./assets/vid1.mp4";
+import FirstVid from "./assets/firstVid.mp4";
 import Logo from "./assets/logo.png";
 function App() {
   return (
